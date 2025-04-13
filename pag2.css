@@ -88,28 +88,41 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 30px;
   }
 }
 
+.lead{
+  margin-bottom: 30px;
+}
+
 .fondo{
-  background-image: url(/img/pexels-pixabay-41951.jpg);
+  background-image: url(/img/fondo2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   position: relative;
   text-align: center;
-  /* color: rgba(0, 0, 0, 0.5); */
   background-attachment: fixed;
   z-index: -1;
   color: white;
 }
 
-.row{
+/* .row{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 20px;
+} */
+
+.sombra-t{
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.medio{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 15%;
+  margin-right: 15%;
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
 }
