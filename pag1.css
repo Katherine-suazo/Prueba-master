@@ -53,19 +53,29 @@ body {
 }
 
 
-/* .video-fondo{
-  background-size: cover;
-  background-position: center;
-  position:fixed;
-  height: 100vh;
-  justify-content: center;
-  text-align: center;
-  color: white;
+video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
-} */
+}
 
-.fondo{
+main{
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* .fondo{
   background-image: url(/img/pexels-pixabay-41951.jpg);
   background-size: cover;
   background-position: center;
@@ -77,12 +87,19 @@ body {
   text-align: center;
   color: white;
   background-attachment: fixed;
-}
+  background-color: rgba(0, 0, 0, 0.5);
+} */
 
-.texto{
+/* .texto{
   position: relative;
   z-index: 2;
   padding: 20px;
   max-width: 600px;
+  text-align: center;
+} */
+
+.texto-abajo{
+  background-color: #1d1b1b;
+  color: white;
   text-align: center;
 }
