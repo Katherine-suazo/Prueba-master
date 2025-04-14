@@ -88,7 +88,7 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 30px;
+    margin-top: 5px;
   }
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .fondo{
-  background-image: url(/img/fondo2.jpg);
+  background-image: url(/img/pexels-alex-andrews-271121-816608.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -121,8 +121,8 @@ body {
 }
 
 .medio{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   margin-left: 15%;
   margin-right: 15%;
-  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  /* border-left: 2px solid rgba(0, 0, 0, 0.5); */
 }
