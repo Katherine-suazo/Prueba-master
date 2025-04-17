@@ -75,31 +75,19 @@ main{
   padding: 20px;
 }
 
-/* .fondo{
-  background-image: url(/img/pexels-pixabay-41951.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  color: white;
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-} */
-
-/* .texto{
-  position: relative;
-  z-index: 2;
-  padding: 20px;
-  max-width: 600px;
-  text-align: center;
-} */
-
 .texto-abajo{
   background-color: #1d1b1b;
   color: white;
   text-align: center;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #18181d;
+  border-top: .05rem solid #363636;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
 }

@@ -97,7 +97,7 @@ body {
 }
 
 .fondo{
-  background-image: url(/img/pexels-alex-andrews-271121-816608.jpg);
+  background-image: url(/img/fondo3.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -110,12 +110,6 @@ body {
   color: white;
 }
 
-/* .row{
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 20px;
-} */
-
 .sombra-t{
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
@@ -124,5 +118,15 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   margin-left: 15%;
   margin-right: 15%;
-  /* border-left: 2px solid rgba(0, 0, 0, 0.5); */
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #18181d;
+  border-top: .05rem solid #363636;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
 }
